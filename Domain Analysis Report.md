@@ -1,5 +1,7 @@
 # **Application Context & Workload Analysis**
 
+**By: IT Visionaries**
+
 ## Introduction & Context
 The Fourth Industrial Revolution (4IR) is fundamentally altering global economies through advancements in Artificial Intelligence (AI), ubiquitous connectivity, and digital services. For Lesotho and the broader African continent, the critical challenge and opportunity lie in transitioning from being mere consumers of these technologies to active participants in designing and developing solutions tailored to local realities, constraints, and opportunities.
 
