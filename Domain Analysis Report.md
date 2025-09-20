@@ -30,7 +30,7 @@ Based on the context above, the following three AI-powered applications have bee
 1. **Computational Intensity**: How much processing power do these tasks need? Voice recognition requires significant real-time processing to convert audio waves into text or commands. Biometric security involves complex algorithms to commands. Biometric security involves complex algorithms to match a new scan with the stored template.
 2.	**Data Types**: Voice recognition deals with audio data, while biometrics involve image data or sensor data. The processor must be good at handling these specific data types efficiently.
 3.	**Memory and Storage**: This is the memory (RAM) needed to run these applications and how much storage their models require.
-4.	**Latency**: How quickly does the process need to respond? For things like voice commands and biometric security, the response must be instantaneous to feel natural and secure. This is a critical factor for the user experience 
+4.	**Latency**: How quickly does the processor need to respond? For things like voice commands and biometric security, the response must be instantaneous to feel natural and secure. This is a critical factor for the user experience. 
 5.	**Power Consumption**: Since these are low-cost mobile phones, power efficiency is a huge concern. The processor needs to be able to run these AI tasks without draining the battery quickly. This is where a custom RISC-V design can be highly beneficial, as it can be optimized for specific low-power tasks.
 
 ## Conclusion
