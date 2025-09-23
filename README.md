@@ -1,5 +1,5 @@
-# CS3520-Project
-## RISC-V Processor Design
+# CS3520 Project
+## RISC-V Processor Design For Low-cost AI-enabled Mobile Phones
 
 ### By: IT Visionaries
 
