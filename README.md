@@ -8,5 +8,5 @@
 202322611: Itumeleng Hatane <br>
 202321319: Bakoena Thamae <br>
 202322606: Tumelo Leubane <br>
-202321228 : Lephahamela Matsoso <br>
+202321228: Lephahamela Matsoso <br>
 202321278: Nkuebe Nkuebe
