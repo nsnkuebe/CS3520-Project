@@ -11,12 +11,12 @@ processor can efficiently execute feature extraction, neural network interferenc
 cryptographic operations, enabling responsive devices.
 
 ### Design Goals ###
-a.	Energy efficiency: essential for extending battery life in mobile phones.
-b.	Low cost: achieved through simplified hardware and minimal complexity.
+a.	Energy efficiency: essential for extending battery life in mobile phones. <br>
+b.	Low cost: achieved through simplified hardware and minimal complexity. <br>
 c.	High performance for AI: optimized acceleration for key computational tasks such as
-    voice recognition, biometric security, and intelligent connectivity.
+    voice recognition, biometric security, and intelligent connectivity. <br>
 d.	Security support: integrate instructions to protect biometric templates and secure 
-    communications.
+    communications. <br>
 e.	Real time responsiveness: reduce latency for voice commands, biometric authentication,
     and adaptive network decisions.
     
@@ -60,10 +60,10 @@ Enforced alignment improve access speed and reduce misaligned memory penalties.
 ### Instruction Formats ###
 Fixed length instruction format: 32 – bit base instructions for predictability and 
 pipelining efficiency. Optional 16 – bit compressed instructions; for code size reduction 
-in memory constrained edge devices. 
-R-type: register to register operations.
-I – type: immediate operations and load instructions.
-S-type: store instructions.
+in memory constrained edge devices. <br>
+R-type: register to register operations. <br>
+I – type: immediate operations and load instructions.<br>
+S-type: store instructions.<br>
 Fixed length instructions simplify decode logic and pipelining, while optional compressed 
 instructions reduce memory footprint for edge AI devices.
 
@@ -77,8 +77,8 @@ instructions reduce memory footprint for edge AI devices.
 
 ## 4. Instruction Encoding Summary ##
 The encoding follows a regular RISC structure to simplify the datapath and control unit.
-●	Instruction Sizes: 32-bit (Base/Custom) and 16-bit (Compressed).
-●	Register Fields: 5 bits are used to address any of the 32 GPRs.
+●	Instruction Sizes: 32-bit (Base/Custom) and 16-bit (Compressed).<br>
+●	Register Fields: 5 bits are used to address any of the 32 GPRs.<br>
 ●	Regularity: The Opcode is consistent across all 32-bit formats. Destination registers (Rdest) are consistently found in the same bit positions, reducing complexity in the instruction decoder.
 
 32-bit R-Type Format (e.g., ADD, MAC_D32)
