@@ -3,12 +3,7 @@
 ## 1. Overview & Motivation ##
 
 ### Purpose & Application Context ###
-The purpose of this ISA is to accelarate low-cost mobile phones AI applications of voice
-recognition, biometric security, and intelligent connectivity. These applications
-require real time processing of sensor data, secure handling of sensitive infomation, and
-efficient network management. By designing an ISA customized for these workloads, the 
-processor can efficiently execute feature extraction, neural network interference, and
-cryptographic operations, enabling responsive devices.
+This Instruction Set Architecture (ISA) is designed specifically for the core processors within low-cost, AI-enabled mobile phones for the Lesotho and broader African market. Its purpose is to efficiently execute key on-device AI workloads—such as voice recognition, biometric security, and intelligent connectivity—while operating under stringent constraints of cost, power, and intermittent network reliability.
 
 ### Design Goals ###
 a.	Energy efficiency: essential for extending battery life in mobile phones. <br>
@@ -79,7 +74,7 @@ instructions reduce memory footprint for edge AI devices.
 | Control Flow | JUMP, JMP_REG, BR_EQ, BR_NEQ | Label/Rdest, Rsrc/Rsrc1, Rsrc2, Label | Unconditional jumps, jumps to register address, and conditional branches |
 
 ## 4. Instruction Encoding Summary ##
-The encoding follows a regular RISC structure to simplify the datapath and control unit.
+The encoding follows a regular RISC structure to simplify the datapath and control unit.<br>
 ●	Instruction Sizes: 32-bit (Base/Custom) and 16-bit (Compressed).<br>
 ●	Register Fields: 5 bits are used to address any of the 32 GPRs.<br>
 ●	Regularity: The Opcode is consistent across all 32-bit formats. Destination registers (Rdest) are consistently found in the same bit positions, reducing complexity in the instruction decoder.
