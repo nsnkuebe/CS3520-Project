@@ -62,8 +62,11 @@ Fixed length instruction format: 32 – bit base instructions for predictability
 pipelining efficiency. Optional 16 – bit compressed instructions; for code size reduction 
 in memory constrained edge devices. <br>
 R-type: register to register operations. <br>
-I – type: immediate operations and load instructions.<br>
+I-type: immediate operations and load instructions.<br>
 S-type: store instructions.<br>
+B-type: branch instructions.<br>
+J-type: jump instuctions.<br>
+U-type: load upper immediate.<br>
 Fixed length instructions simplify decode logic and pipelining, while optional compressed 
 instructions reduce memory footprint for edge AI devices.
 
